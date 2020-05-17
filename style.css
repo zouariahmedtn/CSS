@@ -1,0 +1,63 @@
+/*Nav Bar*/
+nav {
+    list-style-type: none;
+    margin: 8px;
+    padding: 8px;
+    overflow: hidden;
+    background-color:#333;
+}
+
+nav a {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+   a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: none;
+  }
+  
+  nav a:hover {
+    background-color:#bbb;
+  }
+
+/*DIVS */
+div {
+    border :1px solid blue;
+    margin: 8px;
+    padding: 8px;
+}
+
+/*button forms*/
+ input[type=submit], input[type=reset] {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    
+    
+  }
+
+/*footer*/
+
+footer {
+
+  display: flex;
+  justify-content: flex-end;
+  align-items :center;
+
+}
+
+/*forms*/
+input[type=text] {
+  width: 100%;
+  padding: 10px 150px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
